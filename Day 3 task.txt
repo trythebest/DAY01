@@ -1,0 +1,86 @@
+let jason=[
+  {
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  {
+    "id": 3,
+    "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+    "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+  }];
+  
+ 1.For loop;
+  
+  for(var i=0;i<jason.length;i++)
+  {
+    console.log(jason[i]);
+    
+    }
+
+2. For in loop;
+  for(let key in jason)
+  {
+    console.log(jason[key].title);
+    
+    }
+3. For of loop;
+
+  for(let key of jason)
+  {
+    console.log(key.id);
+    
+    }
+4.ForEach loop
+   jason.forEach((item)=>{
+    console.log(item.title)
+    });
+
+
+5. Resume data in jason format.
+
+  let resume = {
+  
+ 
+"Name" :"MANIKANDAN.N"                                
+ "Mobile No": "+916380793991"
+ "Mail":"manikandan.nagarajan.1998@gmail.com"
+
+"CAREER OBJECTIVE":  "To achieve success in all aspects with the support of disciplined and hard working principle.
+                      To work enthusiastically at any situation and to help others.
+                      To get the job in your concern to develop myself and the concern."
+
+"QUALIFICATION DETAILS" :{"DEGREE" :"B.E/MECHANICAL ENGINEERING",
+                           "DEGREE PERCENTAGE " :6.8,
+                            "COLLEGE NAME" : "PAAVAI COLLEGE OF ENGINEERING",
+                            "YEAR PASSED OUT" : 2019}
+                             
+
+"PAPER PRESENTATION":"Presenting a Paper METAL CUTTING AND JOINING PROCESS  at M.Kumarasamy College of Engineering. . (National Conference)"
+
+"EXTRA CURICULAR ACTIVITIES":"Attending a One Day National Level Workshop on “ENERGY AUDIT: AN OVERVIEW “v2.0 conducted by CENSER.
+Completed Typewritten Exam Junior & Senior level with First class."
+
+"SOFTWARE PROFICIENCY":"Advanced Diploma in Computer Hardware and Network Engineering.(A+N+),Auto Cad,Solid Works,Typewriting English in (Higher and Junior)" 
+"PERSONAL INFORMATION": {"Name"		        :    "Manikandan.N"                                                                                                
+                       "Date of Birth"		:    20.2.1998
+                       "Father’s Name"		:    "Nagarajan.M"
+                       "Sex"		        :    "Male"
+                       "Marital Status"		:    "Unmarried"
+                       "Community"		:    "BC"
+                       "Religion"	        :    "Hindu"
+                       "Nationality"		:    "Indian"
+                       "Permanent Address" 	:    "1/196H, Thangasalai Street, Vennandur(po),                                      
+                                                     Namakkal(Dt.)"}
+};
+
+      
+
+
+
+}
