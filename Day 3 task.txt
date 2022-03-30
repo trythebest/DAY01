@@ -67,7 +67,8 @@ let jason=[
 Completed Typewritten Exam Junior & Senior level with First class."
 
 "SOFTWARE PROFICIENCY":"Advanced Diploma in Computer Hardware and Network Engineering.(A+N+),Auto Cad,Solid Works,Typewriting English in (Higher and Junior)" 
-"PERSONAL INFORMATION": {"Name"		        :    "Manikandan.N"                                                                                                
+"PERSONAL INFORMATION": [
+                       {"Name"		        :    "Manikandan.N"                                                                                                
                        "Date of Birth"		:    20.2.1998
                        "Father’s Name"		:    "Nagarajan.M"
                        "Sex"		        :    "Male"
@@ -76,11 +77,11 @@ Completed Typewritten Exam Junior & Senior level with First class."
                        "Religion"	        :    "Hindu"
                        "Nationality"		:    "Indian"
                        "Permanent Address" 	:    "1/196H, Thangasalai Street, Vennandur(po),                                      
-                                                     Namakkal(Dt.)"}
+                                                     Namakkal(Dt.)"}]
 };
 
       
 
 
 
-}
+
