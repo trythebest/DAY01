@@ -1,0 +1,28 @@
+task-1
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+
+console.log( _.isEqual(obj1,obj2));
+
+
+
+
+task-2&3
+
+var mani = new XMLHttpRequest();
+mani.open("GET","https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
+mani.send();
+mani.onload=function(){
+    var data = JSON.parse(mani.response);
+   
+   i) for(var i=0;i<data.length;i++)
+    {
+       console.log(`Flag:${data[i].flag}`);
+    }
+
+  ii) for(var i=0;i<data.length;i++)
+     {
+       console.log(`Name:${data[i].name} Region:${data[i].region} Sub-Region:${data[i].subregion} Population:${data[i].population}`);
+     }
